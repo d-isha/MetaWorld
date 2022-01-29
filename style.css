@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#nav{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 380px;
+}
+
+/* z1,z2,z3 */
+
+#mm{
+    text-decoration: none;
+    color:rgba(255, 254, 255, 0.678);
+    font-size: 18px;
+}
+
+span{
+    color:#b607d1;
+}
+
+#nav img{
+    position: absolute;
+    left: 26%;
+    height: 4.8%;
+}
+
+#home{
+    font-size: 14px;
+    text-decoration: none;
+    color:rgba(214, 212, 212, 0.678);
+}
+
+#road{
+    font-size: 14px;
+    text-decoration: none;
+    color:rgba(214, 212, 212, 0.678);
+}
+
+#pricing{
+    font-size: 14px;
+    text-decoration: none;
+    color:rgba(214, 212, 212, 0.678);
+}
+
+#team{
+    font-size: 14px;
+    text-decoration: none;
+    color:rgba(214, 212, 212, 0.678);
+}
+
+#about{
+    font-size: 14px;
+    text-decoration: none;
+    color:rgba(214, 212, 212, 0.678);
+}
+
+#hero{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,#150216dc,#061a40bb); 
+}
+
+#l{
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    width: 20%;
+    height: 60%;
+    background-image: url(meta.PNG);
+    background-position: center;
+    background-size: cover;
+    border:2px solid white;
+    border-bottom-right-radius: 50px 25px;
+    border-top-left-radius:50px 25px ;
+}
+
+#text{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+
+#coll{
+    font-size: 90px;
+    color: #fff;  
+    line-height: 65px;  
+}
+
+#for{
+    font-size: 90px;
+    color: #fff;    
+    line-height: 90px;  
+}
+
+#meta{
+    letter-spacing: 1px;
+    line-height: 60px;
+    font-size: 85px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #b607d1;
+}
+
+#world{
+    letter-spacing: 1px;
+    font-size: 85px;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #b607d1;
+}
+
+#para{
+    position: absolute;
+    top: 61%;
+    left: 8.6%;
+    color: rgba(214, 212, 212, 0.678);
+    font-weight: 300;
+    font-size:15px;
+    line-height: 20px;
+}
+
+#let{
+    position: absolute;
+    top: 70%;
+    left: 9.5%;
+    width: 10%;
+    height: 6%;
+    border:2px solid white;
+    border-bottom-right-radius: 50px 20px;
+    border-top-left-radius:50px 20px;
+}
+
+#start{
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 69%;
+    left: 8.9%;
+    width: 10%;
+    height: 6%;
+    background-color: #a50fbd;
+    border-bottom-right-radius: 50px 20px;
+    border-top-left-radius:50px 20px ;
+}
+
+#start h5{
+    position: absolute;
+    top: 35%;
+    left: 24%;
+    font-size: 15px;
+    font-weight: 510;
+    letter-spacing: 1.5px;
+}
+
+#free{
+    position: absolute;
+    top: 70%;
+    left: 22%;
+    font-size: 20px;
+    font-weight: 510;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+i{
+    position: absolute;
+    top: 69.5%;
+    left: 31%;
+    font-size: 28px;
+    color: #c717e2;
+}
+
+#bina{
+    position: absolute;
+    top: 75%;
+    left: 8.9%;
+    width: 8%;
+}
+
+#coin{
+    position: absolute;
+    top: 78.5%;
+    left: 17.5%;
+    width: 3.8%;
+}
+
+#market{
+    position: absolute;
+    top: 78.1%;
+    left: 12%;
+    width: 25%;
+}
+
+#op{
+    position: absolute;
+    top: 78.6%;
+    left: 30.8%;
+    background-color: rgb(197, 194, 194);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#open{
+    position: absolute;
+    top: 78.4%;
+    left: 30.7%;
+    width: 1.5%;
+}
+
+#sea{
+    position: absolute;
+    top: 78.1%;
+    left: 32.3%;
+    width: 4.8%;
+}
